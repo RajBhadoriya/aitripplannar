@@ -13,6 +13,8 @@ function Hero() {
         <Link to={'/create-trip'}> 
             <Button>Get Started, It's Free</Button>
         </Link>
+
+        <img src={'/Landing.jpg'} className='mt-10 mb-10'/>
         
     </div>
   )

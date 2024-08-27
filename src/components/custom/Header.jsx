@@ -59,9 +59,6 @@ function Header() {
      <img src="/logo.svg"   alt="logo"/>
   
      
-     
-      
-     
       <div>
         {user ? (
           <div className="flex items-center gap-3">
