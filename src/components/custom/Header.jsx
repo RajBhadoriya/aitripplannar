@@ -15,7 +15,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import axios from "axios";
-
+import {Link } from 'react-router-dom'
 
 
 // import MyTrips from "@/my-trips";
@@ -56,7 +56,7 @@ function Header() {
 
   return (
     <div className="p-3 shadow-sm flex justify-between items-center px-5">
-     <img src="/logo.svg"   alt="logo"/>
+     <img src="/logo.svg"   alt="logo" />
   
      
       <div>
